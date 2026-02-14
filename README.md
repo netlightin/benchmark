@@ -45,26 +45,103 @@
 
 ## Results Summary - Medium Model
 
-| Audio File        | Duration | Avg Response Time | Text                                                                                                                                                                                                                                                        |
-| ----------------- | -------- | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `./audio/b05.mp3` | 5.92s    | 0.92s             | i två, tre månader. Och sen så får du söka igen vid behov.                                                                                                                                                                                                  |
-| `./audio/b10.mp3` | 10.92s   | 1.31s             | Jag bedömer det som en förstoppning. Du får behandling med OVK i två, tre månader och sen så får du söka igen vid behov.                                                                                                                                    |
-| `./audio/b15.mp3` | 15.92s   | 1.54s             | Lite på vänster fossa. Ja, jag bedömer det som en förstoppning. Du får behandling med OVK i två, tre månader och sen så får du söka igen vid behov.                                                                                                         |
-| `./audio/b20.mp3` | 20.92s   | 1.81s             | Och det ser bra ut, det gör ont lite på vänster fossa, ja jag bedömer det som en förstoppning. Du får behandling med OVK i två, tre månader, och sen så får du söka igen vid behov.                                                                        |
-| `./audio/b25.mp3` | 25.92s   | 1.90s             | Magen palperar jag, jag aspekterar magen och det ser bra ut. Jag gör ont lite på vänster fossa jag bedömer det som en förstoppning. Du får behandling med OVK i två tre månader, och sen så får du söka igen vid behov.                                     |
+| Audio File        | Duration | Avg Response Time | Text                                                                                                                                                                                                                                                         |
+| ----------------- | -------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `./audio/b05.mp3` | 5.92s    | 0.92s             | i två, tre månader. Och sen så får du söka igen vid behov.                                                                                                                                                                                                   |
+| `./audio/b10.mp3` | 10.92s   | 1.31s             | Jag bedömer det som en förstoppning. Du får behandling med OVK i två, tre månader och sen så får du söka igen vid behov.                                                                                                                                     |
+| `./audio/b15.mp3` | 15.92s   | 1.54s             | Lite på vänster fossa. Ja, jag bedömer det som en förstoppning. Du får behandling med OVK i två, tre månader och sen så får du söka igen vid behov.                                                                                                          |
+| `./audio/b20.mp3` | 20.92s   | 1.81s             | Och det ser bra ut, det gör ont lite på vänster fossa, ja jag bedömer det som en förstoppning. Du får behandling med OVK i två, tre månader, och sen så får du söka igen vid behov.                                                                          |
+| `./audio/b25.mp3` | 25.92s   | 1.90s             | Magen palperar jag, jag aspekterar magen och det ser bra ut. Jag gör ont lite på vänster fossa jag bedömer det som en förstoppning. Du får behandling med OVK i två tre månader, och sen så får du söka igen vid behov.                                      |
 | `./audio/b30.mp3` | 30.92s   | 2.44s             | Hjärtat låter bra, lungorna låter jättefint Magen parperar jag, jag auskulterar magen Och ser bra ut Jag gör ont lite på vänster fossa Jag bedömer det som förstoppning Du får behandling med OVK i två tre månader Och sen så får du söka igenom du behöver |
-| `./audio/b60.mp3` | 60.72s   | 5.11s             | Jag har tidigare tagit villkor för mina förstoppningar och som jag tror orsakar min buksmärta idag...                                                                                                                                                      |
-| `./audio/b90.mp3` | 93.12s   | 6.63s             | Hej, hur kan jag hjälpa dig då? Jo jag söker för att jag har ont i magen och jag har haft det under en väldigt lång period...                                                                                                                               |
+| `./audio/b60.mp3` | 60.72s   | 5.11s             | Jag har tidigare tagit villkor för mina förstoppningar och som jag tror orsakar min buksmärta idag...                                                                                                                                                        |
+| `./audio/b90.mp3` | 93.12s   | 6.63s             | Hej, hur kan jag hjälpa dig då? Jo jag söker för att jag har ont i magen och jag har haft det under en väldigt lång period...                                                                                                                                |
 
 ## Results Summary - Large Model
 
-| Audio File        | Duration | Avg Response Time | Text                                                                                                                                                                                                                                                          |
-| ----------------- | -------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `./audio/b05.mp3` | 5.92s    | 1.42s             | I två, tre månader och sen så får du söka igen om du behöver, vid behov.                                                                                                                                                                                      |
-| `./audio/b10.mp3` | 10.92s   | 1.91s             | jag bedömer det som en förstoppning ehm, du får behandling med Movi-Col i två, tre månader eh och sen så får du säkra igen om du behöver, vid behov                                                                                                           |
-| `./audio/b15.mp3` | 15.92s   | 2.15s             | Lite på vänsterfossa. Eh ja, jag bedömer det som en förstoppning. Eh, du får behandling med Movicol i två, tre månader. Och sen så får du söka igen om du behöver, vid behov.                                                                              |
-| `./audio/b20.mp3` | 20.92s   | 2.51s             | och ser bra ut ehm gör ont lite på vänsterfossa ehm ja jag bedömer det som en förstoppning ehm du får behandling med Movie Call i två, tre månader eh och sen så får du söka igen om du behöver, vid behov                                                    |
-| `./audio/b25.mp3` | 25.92s   | 2.92s             | Eh magen, parperia. Eh mag, askultera magen. Eh och eh det ser bra ut. Eh gör ont lite på vänster fossa. Eh ja, jag bedömer det som en förstoppning. Eh du får behandling mot kol i två, tre månader. Eh och sen så får du säkert igen om du behöver...   |
-| `./audio/b30.mp3` | 30.92s   | 3.67s             | hjärtat, det låter bra lungorna, låter jättefint eh eh magen, parperia eh mag, eh askultera magen eh och eh det ser bra ut ehm eh gör ont lite på vänster fossa eh ja, jag bedömer det som en förstoppning ehm du får behandling med Movicol...              |
-| `./audio/b60.mp3` | 60.72s   | 7.28s             | Sen i flera i min familj. Jag har tidigare tagit villkor för mina förstoppningar och som jag tror orsakar min buksmärta idag...                                                                                                                               |
-| `./audio/b90.mp3` | 93.12s   | 10.26s            | Hej, ehm, hur kan jag hjälpa dig då? Jo, jag söker för att jag har ont i magen och jag har haft det under en väldigt lång period...                                                                                                                           |
+| Audio File        | Duration | Avg Response Time | Text                                                                                                                                                                                                                                                    |
+| ----------------- | -------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `./audio/b05.mp3` | 5.92s    | 1.42s             | I två, tre månader och sen så får du söka igen om du behöver, vid behov.                                                                                                                                                                                |
+| `./audio/b10.mp3` | 10.92s   | 1.91s             | jag bedömer det som en förstoppning ehm, du får behandling med Movi-Col i två, tre månader eh och sen så får du säkra igen om du behöver, vid behov                                                                                                     |
+| `./audio/b15.mp3` | 15.92s   | 2.15s             | Lite på vänsterfossa. Eh ja, jag bedömer det som en förstoppning. Eh, du får behandling med Movicol i två, tre månader. Och sen så får du söka igen om du behöver, vid behov.                                                                           |
+| `./audio/b20.mp3` | 20.92s   | 2.51s             | och ser bra ut ehm gör ont lite på vänsterfossa ehm ja jag bedömer det som en förstoppning ehm du får behandling med Movie Call i två, tre månader eh och sen så får du söka igen om du behöver, vid behov                                              |
+| `./audio/b25.mp3` | 25.92s   | 2.92s             | Eh magen, parperia. Eh mag, askultera magen. Eh och eh det ser bra ut. Eh gör ont lite på vänster fossa. Eh ja, jag bedömer det som en förstoppning. Eh du får behandling mot kol i två, tre månader. Eh och sen så får du säkert igen om du behöver... |
+| `./audio/b30.mp3` | 30.92s   | 3.67s             | hjärtat, det låter bra lungorna, låter jättefint eh eh magen, parperia eh mag, eh askultera magen eh och eh det ser bra ut ehm eh gör ont lite på vänster fossa eh ja, jag bedömer det som en förstoppning ehm du får behandling med Movicol...         |
+| `./audio/b60.mp3` | 60.72s   | 7.28s             | Sen i flera i min familj. Jag har tidigare tagit villkor för mina förstoppningar och som jag tror orsakar min buksmärta idag...                                                                                                                         |
+| `./audio/b90.mp3` | 93.12s   | 10.26s            | Hej, ehm, hur kan jag hjälpa dig då? Jo, jag söker för att jag har ont i magen och jag har haft det under en väldigt lång period...                                                                                                                     |
+
+## Analysis
+
+### "Movicol" Transcription Accuracy
+
+The goal was to find a fast and accurate model for transcribing medical drug names, specifically "Movicol". Below is a summary of how each model performed:
+
+### Detailed Accuracy Breakdown
+
+#### ✅ Exact Match - "movicol", "Movicol", "Movi-Col"
+
+| Model | Audio File | Duration | Avg Time | Transcription |
+| ----- | ---------- | -------- | -------- | ------------- |
+| Small | b20.mp3    | 20.92s   | 1.11s    | "movicol"     |
+| Large | b10.mp3    | 10.92s   | 1.91s    | "Movi-Col"    |
+| Large | b15.mp3    | 15.92s   | 2.15s    | "Movicol"     |
+| Large | b30.mp3    | 30.92s   | 3.67s    | "Movicol"     |
+
+#### ⚠️ Close/Almost - "movicult", "ovykol", "mov i kol"
+
+| Model | Audio File | Duration | Avg Time | Transcription | Similarity                     |
+| ----- | ---------- | -------- | -------- | ------------- | ------------------------------ |
+| Small | b15.mp3    | 15.92s   | 1.21s    | "ovykol"      | Similar structure, missing 'm' |
+| Small | b25.mp3    | 25.92s   | 1.45s    | "mov i kol"   | Words separated, recognizable  |
+| Small | b30.mp3    | 30.92s   | 1.68s    | "movicult"    | Single letter off, very close  |
+
+#### ❌ Poor Match - "mot ett kol", "mot vikolet", "mot vikol", "mov i KL", "OVK"
+
+| Model  | Audio File | Duration | Avg Time | Transcription | Issue                            |
+| ------ | ---------- | -------- | -------- | ------------- | -------------------------------- |
+| Tiny   | b10.mp3    | 10.92s   | 0.72s    | "mot ett kol" | Completely wrong word            |
+| Tiny   | b15.mp3    | 15.92s   | 0.89s    | "mot det kol" | Preposition instead of drug name |
+| Tiny   | b20.mp3    | 20.92s   | 0.76s    | "mot kol"     | Missing prefix                   |
+| Tiny   | b25.mp3    | 25.92s   | 0.91s    | "mot modekol" | Wrong drug name entirely         |
+| Base   | b10.mp3    | 10.92s   | 0.75s    | "mot vikolet" | Phonetically similar but wrong   |
+| Base   | b15.mp3    | 15.92s   | 0.80s    | "mot vikol"   | Phonetically similar but wrong   |
+| Base   | b20.mp3    | 20.92s   | 0.94s    | "mot vikol"   | Phonetically similar but wrong   |
+| Base   | b25.mp3    | 25.92s   | 0.92s    | "mot vikolet" | Phonetically similar but wrong   |
+| Small  | b10.mp3    | 10.92s   | 1.04s    | "mov i KL"    | Abbreviation with spacing        |
+| Medium | b25.mp3    | 25.92s   | 1.90s    | "OVK"         | Only abbreviation                |
+| Large  | b20.mp3    | 20.92s   | 2.51s    | "Movie Call"  | Completely misheard              |
+| Large  | b25.mp3    | 25.92s   | 2.92s    | "mot kol"     | Missing prefix                   |
+
+### Key Findings
+
+| Model  | Accuracy Level | Transcriptions of "Movicol"                  | b10.mp3 Avg Time | b15.mp3 Avg Time | Overall Avg Speed | Recommendation    |
+| ------ | -------------- | -------------------------------------------- | ---------------- | ---------------- | ----------------- | ----------------- |
+| Tiny   | ❌ Poor        | "mot ett kol", "mot kol", "mot modekol"      | 0.72s            | 0.89s            | ~0.81s            | ✗ Not suitable    |
+| Base   | ⚠️ Weak        | "mot vikolet", "mot vikol"                   | 0.75s            | 0.80s            | ~0.78s            | ✗ Not suitable    |
+| Small  | ⚠️ Partial     | "mov i KL", "mov i kol", "ovykol", "movicol" | 1.04s            | 1.21s            | ~1.13s            | ~ Conditional     |
+| Medium | ⚠️ Abbreviated | "OVK" (abbreviation only)                    | 1.31s            | 1.54s            | ~1.43s            | ✗ Not suitable    |
+| Large  | ✅ Excellent   | "Movi-Col", "Movicol"                        | 1.91s            | 2.15s            | ~2.03s            | ✓ **Recommended** |
+
+**Best Accuracy: Large Model**
+
+- Correctly transcribes "Movicol" as "Movi-Col" or "Movicol" consistently
+- Minor variations like hyphenation are acceptable for medical transcription
+- Price: ~2.5x slower than base/tiny models
+
+**Fastest but Inaccurate: Tiny & Base Models**
+
+- Tiny and Base models completely miss the drug name or severely mangle it
+- "mot vikol", "mot kol" are not usable for medical purposes
+- Speed advantage is negated by requiring manual correction
+
+**Compromise Option: Small Model**
+
+- Occasionally transcribes correctly ("movicol")
+- Other attempts are partial/close ("mov i kol", "ovykol")
+- More variable accuracy than Large, but significantly faster (55% faster than Large)
+- Could work with post-processing/fuzzy matching for common medical terms
+
+### Recommendation
+
+For **critical applications** where accuracy of drug names is essential (medical records, pharmacy), the **Large Model** is recommended despite the performance overhead. The cost of transcription errors in medical contexts far outweighs the slight increase in processing time.
+
+For **non-critical applications** with speed requirements, the **Small Model** could be viable with a post-processing step to match common medical terminology.
