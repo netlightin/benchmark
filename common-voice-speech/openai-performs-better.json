@@ -1,0 +1,197 @@
+{
+  "length": 12,
+  "tests": [
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_38028166.mp3",
+        "split": "train",
+        "reference": "Och hon försökte åter, om hon inte skulle kunna uttrycka sig redigare.",
+        "hypothesis": "Hon försökte åter om hon inte skulle kunna uttrycka sig redigare.",
+        "wer": 16.67
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_38028166.mp3",
+        "split": "train",
+        "reference": "Och hon försökte åter, om hon inte skulle kunna uttrycka sig redigare.",
+        "hypothesis": "Och hon försökte åter om hon inte skulle kunna uttrycka sig redigare.",
+        "wer": 8.33
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_24993302.mp3",
+        "split": "dev",
+        "reference": "Sådana vänner är det ont om nu.",
+        "hypothesis": "Så då vänder allt det runt och nu.",
+        "wer": 85.71
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_24993302.mp3",
+        "split": "dev",
+        "reference": "Sådana vänner är det ont om nu.",
+        "hypothesis": "Så då når vänner att det är ont om nu.",
+        "wer": 71.43
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_25025097.mp3",
+        "split": "dev",
+        "reference": "Ja, men Söderblom sitter ju här ute i tamburen!",
+        "hypothesis": "Jag med söderblom sitter ju här ute i tamburen.",
+        "wer": 33.33
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_25025097.mp3",
+        "split": "dev",
+        "reference": "Ja, men Söderblom sitter ju här ute i tamburen!",
+        "hypothesis": "Ja, men Söderblom sitter ju här ute i tamburen.",
+        "wer": 11.11
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_24984124.mp3",
+        "split": "dev",
+        "reference": "Sådana är dom där ute i skärgården.",
+        "hypothesis": "Sådana är de där ute i skärgården.",
+        "wer": 14.29
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_24984124.mp3",
+        "split": "dev",
+        "reference": "Sådana är dom där ute i skärgården.",
+        "hypothesis": "Sådana är dom där ute i skärgården.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_21889832.mp3",
+        "split": "dev",
+        "reference": "En full valp.",
+        "hypothesis": "En full valp",
+        "wer": 33.33
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_21889832.mp3",
+        "split": "dev",
+        "reference": "En full valp.",
+        "hypothesis": "En full valp.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_25940918.mp3",
+        "split": "dev",
+        "reference": "En musikkomposition med flera satser för ett enda instrument, vanligtvis pianoforte,",
+        "hypothesis": "En musikkomposition med flera satser för ett enda instrument, vanligtvis piano forte.",
+        "wer": 18.18
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_25940918.mp3",
+        "split": "dev",
+        "reference": "En musikkomposition med flera satser för ett enda instrument, vanligtvis pianoforte,",
+        "hypothesis": "En musikkomposition med flera satser för ett enda instrument, vanligtvis pianoforte.",
+        "wer": 9.09
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_24960301.mp3",
+        "split": "test",
+        "reference": "Det trivdes han med.",
+        "hypothesis": "Det trivdes han med",
+        "wer": 25
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_24960301.mp3",
+        "split": "test",
+        "reference": "Det trivdes han med.",
+        "hypothesis": "Det trivdes han med.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_25202588.mp3",
+        "split": "test",
+        "reference": "Kolla en rosa druva.",
+        "hypothesis": "Kolla en rosa druva!",
+        "wer": 25
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_25202588.mp3",
+        "split": "test",
+        "reference": "Kolla en rosa druva.",
+        "hypothesis": "Kolla en rosa druva.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_24997817.mp3",
+        "split": "train",
+        "reference": "Ah, det är du!",
+        "hypothesis": "Ah, det är du.",
+        "wer": 25
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_24997817.mp3",
+        "split": "train",
+        "reference": "Ah, det är du!",
+        "hypothesis": "Ah, det är du!",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_24998325.mp3",
+        "split": "train",
+        "reference": "Fru Walter talade älskvärt men lugnt och likgiltigt.",
+        "hypothesis": "Fru Walter talade älskvärt, men lugnt och likgiltigt.",
+        "wer": 12.5
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_24998325.mp3",
+        "split": "train",
+        "reference": "Fru Walter talade älskvärt men lugnt och likgiltigt.",
+        "hypothesis": "Fru Walter talade älskvärt men lugnt och likgiltigt.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_18856069.mp3",
+        "split": "train",
+        "reference": "Men det är därför jag älskar er.",
+        "hypothesis": "Men det är därför jag älskar er",
+        "wer": 14.29
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_18856069.mp3",
+        "split": "train",
+        "reference": "Men det är därför jag älskar er.",
+        "hypothesis": "Men det är därför jag älskar er.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_20463510.mp3",
+        "split": "train",
+        "reference": "För dem upp och ner.",
+        "hypothesis": "för de upp och ner.",
+        "wer": 20
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_20463510.mp3",
+        "split": "train",
+        "reference": "För dem upp och ner.",
+        "hypothesis": "För dem upp och ner.",
+        "wer": 0
+      }
+    }
+  ]
+}

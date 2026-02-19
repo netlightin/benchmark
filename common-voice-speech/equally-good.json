@@ -1,0 +1,997 @@
+{
+  "length": 62,
+  "tests": [
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_24971334.mp3",
+        "split": "dev",
+        "reference": "Har du någon serie du kan rekommendera?",
+        "hypothesis": "Har du någon serie du kan rekommendera?",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_24971334.mp3",
+        "split": "dev",
+        "reference": "Har du någon serie du kan rekommendera?",
+        "hypothesis": "Har du någon serie du kan rekommendera?",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_25209194.mp3",
+        "split": "dev",
+        "reference": "Norrviken är nu en av de största och yppersta fruktodlingarna i Norden.",
+        "hypothesis": "Norrviken är nu en av de största och yppersta fruktodlingarna i Norden.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_25209194.mp3",
+        "split": "dev",
+        "reference": "Norrviken är nu en av de största och yppersta fruktodlingarna i Norden.",
+        "hypothesis": "Norrviken är nu en av de största och yppersta fruktodlingarna i Norden.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_24963623.mp3",
+        "split": "dev",
+        "reference": "Den ligger i ytterfacket.",
+        "hypothesis": "Den ligger i ytterfacket.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_24963623.mp3",
+        "split": "dev",
+        "reference": "Den ligger i ytterfacket.",
+        "hypothesis": "Den ligger i ytterfacket.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_24992423.mp3",
+        "split": "test",
+        "reference": "Det kan väl aldrig vara möjligt, att det är hon?",
+        "hypothesis": "Det kan väl aldrig vara möjligt att det är hon?",
+        "wer": 10
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_24992423.mp3",
+        "split": "test",
+        "reference": "Det kan väl aldrig vara möjligt, att det är hon?",
+        "hypothesis": "Det kan väl aldrig vara möjligt att det är hon?",
+        "wer": 10
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_25591155.mp3",
+        "split": "test",
+        "reference": "De små öarna hör också till trädgården.",
+        "hypothesis": "De små öarna hör också till trädgården.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_25591155.mp3",
+        "split": "test",
+        "reference": "De små öarna hör också till trädgården.",
+        "hypothesis": "De små öarna hör också till trädgården.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_19550872.mp3",
+        "split": "test",
+        "reference": "Han vet vad han gjort.",
+        "hypothesis": "Han vet vad han gjort.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_19550872.mp3",
+        "split": "test",
+        "reference": "Han vet vad han gjort.",
+        "hypothesis": "Han vet vad han gjort.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_23886048.mp3",
+        "split": "train",
+        "reference": "Så länge ingen tar skada är det väl helt okej?",
+        "hypothesis": "Så länge ingen tar skada är det väl helt okej.",
+        "wer": 10
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_23886048.mp3",
+        "split": "train",
+        "reference": "Så länge ingen tar skada är det väl helt okej?",
+        "hypothesis": "Så länge ingen tar skada är det väl helt okej.",
+        "wer": 10
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_25209514.mp3",
+        "split": "dev",
+        "reference": "Men vaxet?",
+        "hypothesis": "Men vaxet?",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_25209514.mp3",
+        "split": "dev",
+        "reference": "Men vaxet?",
+        "hypothesis": "Men vaxet?",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_21890985.mp3",
+        "split": "dev",
+        "reference": "Du ser ännu bättre ut i verkligheten.",
+        "hypothesis": "Du ser ännu bättre ut i verkligheten.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_21890985.mp3",
+        "split": "dev",
+        "reference": "Du ser ännu bättre ut i verkligheten.",
+        "hypothesis": "Du ser ännu bättre ut i verkligheten.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_24966562.mp3",
+        "split": "dev",
+        "reference": "Han har under alla förhållanden yrkat att påföljden ska lindras.",
+        "hypothesis": "Han har under alla förhållanden yrkat att påföljden ska lindras.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_24966562.mp3",
+        "split": "dev",
+        "reference": "Han har under alla förhållanden yrkat att påföljden ska lindras.",
+        "hypothesis": "Han har under alla förhållanden yrkat att påföljden ska lindras.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_30652709.mp3",
+        "split": "dev",
+        "reference": "Det kan finnas olika skäl till att samarbetet brister.",
+        "hypothesis": "Det kan finnas olika skäl till att samarbetet brister.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_30652709.mp3",
+        "split": "dev",
+        "reference": "Det kan finnas olika skäl till att samarbetet brister.",
+        "hypothesis": "Det kan finnas olika skäl till att samarbetet brister.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_24984122.mp3",
+        "split": "dev",
+        "reference": "Det var en otäck syn, hon vände sig bort.",
+        "hypothesis": "Det var en otäck syn. Hon vände sig bort.",
+        "wer": 11.11
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_24984122.mp3",
+        "split": "dev",
+        "reference": "Det var en otäck syn, hon vände sig bort.",
+        "hypothesis": "Det var en otäck syn. Hon vände sig bort.",
+        "wer": 11.11
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_28754955.mp3",
+        "split": "dev",
+        "reference": "Denna rätt till information bör gälla även vid sammanhållen dokumentation.",
+        "hypothesis": "Denna rätt till information bör gälla även vid sammanhållen dokumentation.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_28754955.mp3",
+        "split": "dev",
+        "reference": "Denna rätt till information bör gälla även vid sammanhållen dokumentation.",
+        "hypothesis": "Denna rätt till information bör gälla även vid sammanhållen dokumentation.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_24965946.mp3",
+        "split": "dev",
+        "reference": "Rudolf, du skulle inte håna mig, för att jag litar på folk!",
+        "hypothesis": "Rudolf, du ska inte håna mig för att jag litar på folk.",
+        "wer": 25
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_24965946.mp3",
+        "split": "dev",
+        "reference": "Rudolf, du skulle inte håna mig, för att jag litar på folk!",
+        "hypothesis": "Rudolf, du ska inte håna mig för att jag litar på folk.",
+        "wer": 25
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_25000255.mp3",
+        "split": "dev",
+        "reference": "Dina kinder är alldeles röda och ögonen så glada och glänsande.",
+        "hypothesis": "Dina kinder är alldeles röda och ögonen så glada och glänsande.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_25000255.mp3",
+        "split": "dev",
+        "reference": "Dina kinder är alldeles röda och ögonen så glada och glänsande.",
+        "hypothesis": "Dina kinder är alldeles röda och ögonen så glada och glänsande.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_24966542.mp3",
+        "split": "dev",
+        "reference": "Gamle smeden med sina två pojkar började bli orolig så smått.",
+        "hypothesis": "Gamle smeden med sina två pojkar började bli orolig så smått.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_24966542.mp3",
+        "split": "dev",
+        "reference": "Gamle smeden med sina två pojkar började bli orolig så smått.",
+        "hypothesis": "Gamle smeden med sina två pojkar började bli orolig så smått.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_20196757.mp3",
+        "split": "dev",
+        "reference": "Ska jag svara på sms:et?",
+        "hypothesis": "Ska jag svara på sms-et?",
+        "wer": 20
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_20196757.mp3",
+        "split": "dev",
+        "reference": "Ska jag svara på sms:et?",
+        "hypothesis": "Ska jag svara på sms-et?",
+        "wer": 20
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_21363823.mp3",
+        "split": "dev",
+        "reference": "Oavsett vem, så hoppas jag han får glädje av det.",
+        "hypothesis": "Oavsett vem så hoppas jag att han får glädje av det.",
+        "wer": 20
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_21363823.mp3",
+        "split": "dev",
+        "reference": "Oavsett vem, så hoppas jag han får glädje av det.",
+        "hypothesis": "Oavsett vem så hoppas jag att han får glädje av det.",
+        "wer": 20
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_24970894.mp3",
+        "split": "dev",
+        "reference": "Ja, det vill jag gärna.",
+        "hypothesis": "Ja, det vill jag gärna.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_24970894.mp3",
+        "split": "dev",
+        "reference": "Ja, det vill jag gärna.",
+        "hypothesis": "Ja, det vill jag gärna.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_18774971.mp3",
+        "split": "dev",
+        "reference": "Den räknar ner!",
+        "hypothesis": "Den räknar ner",
+        "wer": 33.33
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_18774971.mp3",
+        "split": "dev",
+        "reference": "Den räknar ner!",
+        "hypothesis": "Den räknar ner.",
+        "wer": 33.33
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_22690989.mp3",
+        "split": "dev",
+        "reference": "Tänker du göra oss sällskap?",
+        "hypothesis": "Tänker du göra oss sällskap?",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_22690989.mp3",
+        "split": "dev",
+        "reference": "Tänker du göra oss sällskap?",
+        "hypothesis": "Tänker du göra oss sällskap?",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_25591464.mp3",
+        "split": "dev",
+        "reference": "Det var fan vad du ser vräkig ut!",
+        "hypothesis": "Det var fan vad du ser vräkig ut.",
+        "wer": 12.5
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_25591464.mp3",
+        "split": "dev",
+        "reference": "Det var fan vad du ser vräkig ut!",
+        "hypothesis": "Det var fan vad du ser vräkig ut.",
+        "wer": 12.5
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_39652056.mp3",
+        "split": "dev",
+        "reference": "Då började hon dansa för sig själv som en liten flicka, den ingen söker.",
+        "hypothesis": "Då började hon dansa för sig själv som en liten flicka, den ingen söker.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_39652056.mp3",
+        "split": "dev",
+        "reference": "Då började hon dansa för sig själv som en liten flicka, den ingen söker.",
+        "hypothesis": "Då började hon dansa för sig själv som en liten flicka, den ingen söker.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_25940849.mp3",
+        "split": "dev",
+        "reference": "Han förklarades skyldig för hans inblandning i Babington intrigen.",
+        "hypothesis": "Han förklarades skyldig för hans inblandning i badmintonintrigen.",
+        "wer": 22.22
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_25940849.mp3",
+        "split": "dev",
+        "reference": "Han förklarades skyldig för hans inblandning i Babington intrigen.",
+        "hypothesis": "Han förklarades skyldig för hans inblandning i Babington-intrigen.",
+        "wer": 22.22
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_22111109.mp3",
+        "split": "dev",
+        "reference": "Det enda som krävs är initialer och underskrift.",
+        "hypothesis": "Det enda som krävs är initialer och underskrift.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_22111109.mp3",
+        "split": "dev",
+        "reference": "Det enda som krävs är initialer och underskrift.",
+        "hypothesis": "Det enda som krävs är initialer och underskrift.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_24981346.mp3",
+        "split": "test",
+        "reference": "Anna gav förslag till Lena om hur man skulle lösa situationen.",
+        "hypothesis": "Anna gav förslag till Lena om hur man skulle lösa situationen.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_24981346.mp3",
+        "split": "test",
+        "reference": "Anna gav förslag till Lena om hur man skulle lösa situationen.",
+        "hypothesis": "Anna gav förslag till Lena om hur man skulle lösa situationen.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_25226209.mp3",
+        "split": "test",
+        "reference": "Det är omöjligt att hålla reda på alla kusiner.",
+        "hypothesis": "Det är omöjligt att hålla reda på alla kusiner.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_25226209.mp3",
+        "split": "test",
+        "reference": "Det är omöjligt att hålla reda på alla kusiner.",
+        "hypothesis": "Det är omöjligt att hålla reda på alla kusiner.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_25002338.mp3",
+        "split": "test",
+        "reference": "Man har varit för mycket beroende av sanden, stormarna och sjön.",
+        "hypothesis": "Man har varit för mycket beroende av sanden, stormarna och sjön.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_25002338.mp3",
+        "split": "test",
+        "reference": "Man har varit för mycket beroende av sanden, stormarna och sjön.",
+        "hypothesis": "Man har varit för mycket beroende av sanden, stormarna och sjön.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_24961665.mp3",
+        "split": "test",
+        "reference": "Det skulle jag nog vilja veta.",
+        "hypothesis": "Det skulle jag nog vilja veta.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_24961665.mp3",
+        "split": "test",
+        "reference": "Det skulle jag nog vilja veta.",
+        "hypothesis": "Det skulle jag nog vilja veta.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_24961209.mp3",
+        "split": "test",
+        "reference": "För första gången under samtalet visade fru Lily något större intresse.",
+        "hypothesis": "För första gången under samtalet visade fru Lilly något större intresse.",
+        "wer": 9.09
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_24961209.mp3",
+        "split": "test",
+        "reference": "För första gången under samtalet visade fru Lily något större intresse.",
+        "hypothesis": "För första gången under samtalet visade fru Lilly något större intresse.",
+        "wer": 9.09
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_43240967.mp3",
+        "split": "test",
+        "reference": "Agnes till Petersburg, såsom sällskapsdam.",
+        "hypothesis": "Agnes till Petersburg såsom sällskapsdam.",
+        "wer": 20
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_43240967.mp3",
+        "split": "test",
+        "reference": "Agnes till Petersburg, såsom sällskapsdam.",
+        "hypothesis": "Agnes till Petersborg, såsom sällskapsdam.",
+        "wer": 20
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_21156686.mp3",
+        "split": "test",
+        "reference": "Och skurken är så här.",
+        "hypothesis": "Och skurken är så här.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_21156686.mp3",
+        "split": "test",
+        "reference": "Och skurken är så här.",
+        "hypothesis": "Och skurken är så här.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_36517161.mp3",
+        "split": "test",
+        "reference": "Biblioteksassistenter har i genomsnitt lägre lön än bibliotekarier och lärare har något högre.",
+        "hypothesis": "Biblioteksassistenter har i genomsnitt lägre lön än bibliotekarier och lärare har något högre.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_36517161.mp3",
+        "split": "test",
+        "reference": "Biblioteksassistenter har i genomsnitt lägre lön än bibliotekarier och lärare har något högre.",
+        "hypothesis": "Biblioteksassistenter har i genomsnitt lägre lön än bibliotekarier och lärare har något högre.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_25537573.mp3",
+        "split": "test",
+        "reference": "Naturligtvis!",
+        "hypothesis": "Naturligtvis.",
+        "wer": 100
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_25537573.mp3",
+        "split": "test",
+        "reference": "Naturligtvis!",
+        "hypothesis": "Naturligtvis.",
+        "wer": 100
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_37242654.mp3",
+        "split": "test",
+        "reference": "Och ändå andas man så lätt här.",
+        "hypothesis": "Och ändå andas man så lätt här.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_37242654.mp3",
+        "split": "test",
+        "reference": "Och ändå andas man så lätt här.",
+        "hypothesis": "Och ändå andas man så lätt här.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_25340477.mp3",
+        "split": "test",
+        "reference": "Svetten lackade.",
+        "hypothesis": "Svetten lackad.",
+        "wer": 50
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_25340477.mp3",
+        "split": "test",
+        "reference": "Svetten lackade.",
+        "hypothesis": "Svetten lackad.",
+        "wer": 50
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_23899334.mp3",
+        "split": "test",
+        "reference": "Det var en mängd floder och bäckar som störtade fram i stark fors.",
+        "hypothesis": "Det var en mängd floder och bäckar som störtade fram i stark fors.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_23899334.mp3",
+        "split": "test",
+        "reference": "Det var en mängd floder och bäckar som störtade fram i stark fors.",
+        "hypothesis": "Det var en mängd floder och bäckar som störtade fram i stark fors.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_24961141.mp3",
+        "split": "test",
+        "reference": "Fantasin har visst sina begränsningar.",
+        "hypothesis": "Fantasin har visst sina begränsningar.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_24961141.mp3",
+        "split": "test",
+        "reference": "Fantasin har visst sina begränsningar.",
+        "hypothesis": "Fantasin har visst sina begränsningar.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_24960286.mp3",
+        "split": "test",
+        "reference": "En uråldrig gumma kom traskande.",
+        "hypothesis": "En uråldrig gumma kom traskande.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_24960286.mp3",
+        "split": "test",
+        "reference": "En uråldrig gumma kom traskande.",
+        "hypothesis": "En uråldrig gumma kom traskande.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_24960988.mp3",
+        "split": "test",
+        "reference": "Då blev det vanligen krig.",
+        "hypothesis": "Då blev det vanligen krig.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_24960988.mp3",
+        "split": "test",
+        "reference": "Då blev det vanligen krig.",
+        "hypothesis": "Då blev det vanligen krig.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_24960312.mp3",
+        "split": "test",
+        "reference": "Han var en av mina största desillusioner.",
+        "hypothesis": "Han var en av mina största desillusioner.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_24960312.mp3",
+        "split": "test",
+        "reference": "Han var en av mina största desillusioner.",
+        "hypothesis": "Han var en av mina största desillusioner.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_26669200.mp3",
+        "split": "test",
+        "reference": "Han kände igen dem på de stora fanorna med guldinskrifterna, som svajade över dem.",
+        "hypothesis": "Han kände igen dem på de stora fanorna med guldinskrifterna som svajade över dem.",
+        "wer": 7.14
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_26669200.mp3",
+        "split": "test",
+        "reference": "Han kände igen dem på de stora fanorna med guldinskrifterna, som svajade över dem.",
+        "hypothesis": "Han kände igen dem på de stora fanorna med guldinskrifterna som svajade över dem.",
+        "wer": 7.14
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_42732092.mp3",
+        "split": "test",
+        "reference": "I följande kapitel redogörs först för gällande rätt avseende samverkan.",
+        "hypothesis": "I följande kapitel redogörs först för gällande rätt avseende samverkan.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_42732092.mp3",
+        "split": "test",
+        "reference": "I följande kapitel redogörs först för gällande rätt avseende samverkan.",
+        "hypothesis": "I följande kapitel redogörs först för gällande rätt avseende samverkan.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_24961207.mp3",
+        "split": "test",
+        "reference": "Här ligger två brev, varsågod!",
+        "hypothesis": "Här ligger två brev, varsågod",
+        "wer": 20
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_24961207.mp3",
+        "split": "test",
+        "reference": "Här ligger två brev, varsågod!",
+        "hypothesis": "Här ligger två brev. Varsågod!",
+        "wer": 20
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_20335740.mp3",
+        "split": "test",
+        "reference": "Det är lätt att komma ihåg.",
+        "hypothesis": "Det är lätt att komma ihåg.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_20335740.mp3",
+        "split": "test",
+        "reference": "Det är lätt att komma ihåg.",
+        "hypothesis": "Det är lätt att komma ihåg.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_26035269.mp3",
+        "split": "train",
+        "reference": "Det finns många underavsnitt och skikt, vilket var typiskt för Queen då.",
+        "hypothesis": "Det finns många underavsnitt och skikt vilket var typiskt för Queen.",
+        "wer": 25
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_26035269.mp3",
+        "split": "train",
+        "reference": "Det finns många underavsnitt och skikt, vilket var typiskt för Queen då.",
+        "hypothesis": "Det finns många underavsnitt och skikt vilket var typiskt för Queendom.",
+        "wer": 25
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_26560629.mp3",
+        "split": "train",
+        "reference": "Jag vill inte ha cancerbesked av en chattbot.",
+        "hypothesis": "Jag vill inte ha cancerbesked av en chatbot.",
+        "wer": 12.5
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_26560629.mp3",
+        "split": "train",
+        "reference": "Jag vill inte ha cancerbesked av en chattbot.",
+        "hypothesis": "Jag vill inte ha cancerbesked av en chatbot.",
+        "wer": 12.5
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_26551040.mp3",
+        "split": "train",
+        "reference": "Allvarligt, hur många gånger måste jag förklara det för dig?",
+        "hypothesis": "Allvarligt, hur många gånger måste jag förklara det för dig?",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_26551040.mp3",
+        "split": "train",
+        "reference": "Allvarligt, hur många gånger måste jag förklara det för dig?",
+        "hypothesis": "Allvarligt, hur många gånger måste jag förklara det för dig?",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_24749123.mp3",
+        "split": "train",
+        "reference": "Det är ändå sant, att allt beror på att man förstår sig på affärer.",
+        "hypothesis": "Det är ändå sant att allt beror på att man förstår sig på affärer.",
+        "wer": 7.14
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_24749123.mp3",
+        "split": "train",
+        "reference": "Det är ändå sant, att allt beror på att man förstår sig på affärer.",
+        "hypothesis": "Det är ändå sant att allt beror på att man förstår sig på affärer.",
+        "wer": 7.14
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_20021465.mp3",
+        "split": "train",
+        "reference": "Alfred, du är starkare än han.",
+        "hypothesis": "Alfred, du är starkare än han.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_20021465.mp3",
+        "split": "train",
+        "reference": "Alfred, du är starkare än han.",
+        "hypothesis": "Alfred, du är starkare än han.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_20476330.mp3",
+        "split": "train",
+        "reference": "Klart för i dag!",
+        "hypothesis": "Klart för idag!",
+        "wer": 50
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_20476330.mp3",
+        "split": "train",
+        "reference": "Klart för i dag!",
+        "hypothesis": "Klart för då!",
+        "wer": 50
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_38028139.mp3",
+        "split": "train",
+        "reference": "Jag har inte varit hos frisören på ett halvår nu.",
+        "hypothesis": "Jag har inte varit hos frisören på ett halvår nu.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_38028139.mp3",
+        "split": "train",
+        "reference": "Jag har inte varit hos frisören på ett halvår nu.",
+        "hypothesis": "Jag har inte varit hos frisören på ett halvår nu.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_25034940.mp3",
+        "split": "train",
+        "reference": "Snälla Eva, sade jag tydligt, har du frågat Magnhild?",
+        "hypothesis": "Snälla Eva, sade jag tydligt. Har du frågat Magnhild?",
+        "wer": 11.11
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_25034940.mp3",
+        "split": "train",
+        "reference": "Snälla Eva, sade jag tydligt, har du frågat Magnhild?",
+        "hypothesis": "Snälla Eva, sade jag tydligt. Har du frågat Magnhild?",
+        "wer": 11.11
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_19101653.mp3",
+        "split": "train",
+        "reference": "Jag jobbar inte för dig.",
+        "hypothesis": "Jag jobbar inte för dig.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_19101653.mp3",
+        "split": "train",
+        "reference": "Jag jobbar inte för dig.",
+        "hypothesis": "Jag jobbar inte för dig.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_25035088.mp3",
+        "split": "train",
+        "reference": "Vår nattsömn störs av det där oljudet!",
+        "hypothesis": "Vår nattsömn störs av det där oljudet.",
+        "wer": 14.29
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_25035088.mp3",
+        "split": "train",
+        "reference": "Vår nattsömn störs av det där oljudet!",
+        "hypothesis": "Vår nattsömn störs av det där roljudet.",
+        "wer": 14.29
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_24971523.mp3",
+        "split": "train",
+        "reference": "Lindström fyller hela Mölndal med sprit i hopp om att desinficera läkemedelstillverkningen.",
+        "hypothesis": "Lindström fyller hela Mölndal med sprit i hopp om att desinficera läkemedelstillverkningen.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_24971523.mp3",
+        "split": "train",
+        "reference": "Lindström fyller hela Mölndal med sprit i hopp om att desinficera läkemedelstillverkningen.",
+        "hypothesis": "Lindström fyller hela Mölndal med sprit i hopp om att desinficera läkemedelstillverkningen.",
+        "wer": 0
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_27901407.mp3",
+        "split": "train",
+        "reference": "Sjösjukepiller kan hjälpa mot de värsta symtomen",
+        "hypothesis": "Sjösjuka piller kan hjälpa mot de värsta symptomen.",
+        "wer": 42.86
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_27901407.mp3",
+        "split": "train",
+        "reference": "Sjösjukepiller kan hjälpa mot de värsta symtomen",
+        "hypothesis": "Sjösjuka piller kan hjälpa mot de värsta symptomen.",
+        "wer": 42.86
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_18844888.mp3",
+        "split": "train",
+        "reference": "Det var skumt.",
+        "hypothesis": "Det var skumt",
+        "wer": 33.33
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_18844888.mp3",
+        "split": "train",
+        "reference": "Det var skumt.",
+        "hypothesis": "Det var skönt.",
+        "wer": 33.33
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_25062125.mp3",
+        "split": "train",
+        "reference": "Mitt kungarike för en insikt!",
+        "hypothesis": "Mitt kungarike för en insikt",
+        "wer": 20
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_25062125.mp3",
+        "split": "train",
+        "reference": "Mitt kungarike för en insikt!",
+        "hypothesis": "Mitt kungarike för en insikt.",
+        "wer": 20
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_26041603.mp3",
+        "split": "train",
+        "reference": "Hästarna anskaffades i Saint Louis, Missouri.",
+        "hypothesis": "Hästarna anskaffades i St. Louis, Missouri.",
+        "wer": 16.67
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_26041603.mp3",
+        "split": "train",
+        "reference": "Hästarna anskaffades i Saint Louis, Missouri.",
+        "hypothesis": "Hästarna anskaffades i St. Louis, Missouri.",
+        "wer": 16.67
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_18774322.mp3",
+        "split": "train",
+        "reference": "Då kan jag styra den och slåss mot skurkarna!",
+        "hypothesis": "Då kan jag styra den och slåss mot skurkarna.",
+        "wer": 11.11
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_18774322.mp3",
+        "split": "train",
+        "reference": "Då kan jag styra den och slåss mot skurkarna!",
+        "hypothesis": "Då kan jag styra den och slåss mot skurkarna.",
+        "wer": 11.11
+      }
+    },
+    {
+      "kb-whisper-large": {
+        "file": "common_voice_sv-SE_36489677.mp3",
+        "split": "train",
+        "reference": "Men i detsamma fick han på en ljungtuva se ett litet vitt dun.",
+        "hypothesis": "Men i detsamma fick han på en ljungtuva se ett litet vitt dun.",
+        "wer": 0
+      },
+      "openai-whisper": {
+        "file": "common_voice_sv-SE_36489677.mp3",
+        "split": "train",
+        "reference": "Men i detsamma fick han på en ljungtuva se ett litet vitt dun.",
+        "hypothesis": "Men i detsamma fick han på en ljungtuva se ett litet vitt dun.",
+        "wer": 0
+      }
+    }
+  ]
+}
