@@ -2,9 +2,12 @@
 
 | Model Name | ~Movicol count (5.92s) | ~Movicol count (10.92s) | ~Movicol count (15.92s) | ~Movicol count (20.92s) | ~Movicol count (25.92s) | ~Movicol count (30.92s) | ~Movicol count (60.72s) | ~Movicol count (93.12s) | Avg Response Time (5.92s) | Avg Response Time (10.92s) | Avg Response Time (15.92s) | Avg Response Time (20.92s) | Avg Response Time (25.92s) | Avg Response Time (30.92s) | Avg Response Time (60.72s) | Avg Response Time (93.12s) |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| faster-kb-whisper-large | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0.48 | 0.72 | 1.02 | 0.70 | 0.79 | 1.47 | 1.58 | 1.85 |
-| faster-whisper-large-v3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0.52 | 0.74 | 0.78 | 0.82 | 0.78 | 1.33 | 1.66 | 2.07 |
-| faster-whisper-large-v3-turbo | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0.48 | 0.81 | 0.78 | 0.73 | 1.00 | 1.39 | 1.71 | 1.81 |
+| auto-faster-kb-whisper-large | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0.48 | 0.72 | 1.02 | 0.70 | 0.79 | 1.47 | 1.58 | 1.85 |
+| auto-faster-whisper-large-v3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0.52 | 0.74 | 0.78 | 0.82 | 0.78 | 1.33 | 1.66 | 2.07 |
+| auto-faster-whisper-large-v3-turbo | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0.48 | 0.81 | 0.78 | 0.73 | 1.00 | 1.39 | 1.71 | 1.81 |
+| faster-kb-whisper-large | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0.58 | 0.58 | 0.62 | 0.75 | 0.99 | 1.39 | 1.65 | 1.71 |
+| faster-whisper-large-v3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0.52 | 0.64 | 0.63 | 0.79 | 0.77 | 1.29 | 1.63 | 1.93 |
+| faster-whisper-large-v3-turbo | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0.44 | 0.77 | 0.67 | 0.71 | 0.85 | 1.83 | 1.72 | 1.77 |
 | kb-whisper-base | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0.56 | 0.75 | 0.80 | 0.94 | 0.92 | 1.02 | 2.35 | 2.61 |
 | kb-whisper-large | 0 | `1` | `1` | `1` | 0 | `1` | `1` | `1` | 1.39 | 1.91 | 2.19 | 2.46 | 2.92 | 3.65 | 7.28 | 10.26 |
 | kb-whisper-medium | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0.92 | 1.31 | 1.54 | 1.87 | 1.90 | 2.41 | 5.11 | 6.63 |
