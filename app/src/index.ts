@@ -171,7 +171,8 @@ async function generateModelReport() {
     for (const duration of sortedDurations) {
       const durationText = model.textByDuration.get(duration);
       const durationMoviCount = durationText ? countMoviWords(durationText) : 0;
-      row += ` ${durationMoviCount} |`;
+      const displayCount = durationMoviCount > 0 ? `\`${durationMoviCount}\`` : durationMoviCount;
+      row += ` ${displayCount} |`;
     }
 
     // Add response times for each duration
