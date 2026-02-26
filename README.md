@@ -1,147 +1,21 @@
-# Benchmark Results
+# Model Benchmark Report
 
-- Each audio file contains 10 test runs with individual response times
-- Average response times increase with audio file duration
-- All files use Swedish language content with auto-detected language settings
-
-## Results Summary - Tiny Model
-
-| Audio File        | Duration | Avg Response Time | Text                                                                                                                                                                                                                                                                                                       |
-| ----------------- | -------- | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `./audio/b05.mp3` | 5.92s    | 0.50s             | I två, tre månader och sen så får du sätta upp dig igenom om vi behöver.                                                                                                                                                                                                                                   |
-| `./audio/b10.mp3` | 10.92s   | 0.72s             | jag bedömer det som en förstoppning du får behandling mot ett kol i två, tre månader och sen så får du sätta upp det igenom du behöver, om vi behöver                                                                                                                                                      |
-| `./audio/b15.mp3` | 15.92s   | 0.89s             | flitigt på vänster fossa ja jag bedömer det som en förstoppning du får behandling mot det kol i två, tre månader och sen så får du sätta igenom det om vi behöver                                                                                                                                          |
-| `./audio/b20.mp3` | 20.92s   | 0.76s             | och ehm, det ser bra ut eh gör ont lite på vänster fossa eh ja jag bedömer det som en förstoppning eh du får behandling mot kol i två, tre månader eh och sen så får du sätta iväg igenom det behöver vi behov                                                                                             |
-| `./audio/b25.mp3` | 25.92s   | 0.91s             | eh magen, parperar jag eh eh jag aspekterar magen eh och eh det ser bra ut eh gör ont lite på vänster fossa eh ja jag bedömer det som en förstoppning eh du får behandling med modekol i två, tre månader eh och sen så får du sätta iväg igenom det behöver vi om vi behöver                              |
-| `./audio/b30.mp3` | 30.92s   | 0.99s             | i hjärtat det låter bra lungorna låter jättefint eh magen parperar jag eh eh jag aspekterar magen eh och ehm det ser bra ut eh gör ont lite på vänster fossa eh ja jag är bedömare som har förstått det du får behandling mot det går i två, tre månader och sen så får du sätta igenom det behöver vi Ja. |
-| `./audio/b60.mp3` | 60.72s   | 1.92s             | eh sen eh i flera är min familj jag har tidigare tagit eh, och fick kål för mina förstoppningar då som jag tror orsakar min bruksmärta idag...                                                                                                                                                             |
-| `./audio/b90.mp3` | 93.12s   | 2.35s             | hej ehm hur kan jag på dig då? jo, jag söker för att jag har ont i magen eh och jag har haft det under en väldigt lång period...                                                                                                                                                                           |
-
-## Results Summary - Base Model
-
-| Audio File        | Duration | Avg Response Time | Text                                                                                                                                                                                                                                                   |
-| ----------------- | -------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `./audio/b05.mp3` | 5.92s    | 0.56s             | i två, tre månader, och sen så får du söka igenom vid behov,                                                                                                                                                                                           |
-| `./audio/b10.mp3` | 10.92s   | 0.75s             | Jag bedömer det som en förstoppning det får behandling mot vikolet i två tre månader och sen så får du söka igenom det vid behov                                                                                                                       |
-| `./audio/b15.mp3` | 15.92s   | 0.80s             | de flyter på vänster fossa eh ja jag bedömer det som en förstoppning eh det får behandling mot vikol i två tre månader och sen så får du söka upp dig igen om vid behov                                                                                |
-| `./audio/b20.mp3` | 20.92s   | 0.94s             | och ser bra ut gör ont lite på vänster fossa eh ja jag bedömer det som en förstoppning det får behandling mot vikol i två tre månader och sen så får du söka upp dig igen om du behöver vid behov                                                      |
-| `./audio/b25.mp3` | 25.92s   | 0.92s             | magen paperia magen, jag ackuterar magen och ser bra ut gör ont lite på vänster fossa ja jag bedömer det som en förstoppning det får behandling mot vikolet i två tre månader och sen så får du söka upp det igen om vid behov                         |
-| `./audio/b30.mp3` | 30.92s   | 1.02s             | i hjärtat det låter bra lungorna låter jättefint magen, paperia magen och ser bra ut gör ont lite på vänster fossa ja jag bedömer det som en förstoppning det får behandling mot vikol i två tre månader och sen så får du söka upp igen om vi bor Ja. |
-| `./audio/b60.mp3` | 60.72s   | 2.25s             | sen i flera i min familj. Jag har tidigare tagit på villkor för mina förstoppningar då som jag tror orsakar min buksmärta idag...                                                                                                                      |
-| `./audio/b90.mp3` | 93.12s   | 2.57s             | Hej eh eh hur kan jag på dig då? Jo, jag söker för att jag har odd i magen och jag har haft det under en väldigt lång period och du behöver hjälp nu...                                                                                                |
-
-## Results Summary - Small Model
-
-| Audio File        | Duration | Avg Response Time | Text                                                                                                                                                                                                                                                    |
-| ----------------- | -------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `./audio/b05.mp3` | 5.92s    | 0.76s             | i 2, 3 månader, och sen så får du söka igen om du behöver, vid behov                                                                                                                                                                                    |
-| `./audio/b10.mp3` | 10.92s   | 1.04s             | Äh, vi bedömer det som en förstoppning. Du får behandling med mov i KL i 2, 3 månader och sen så får du söka igen om du behöver vid behov.                                                                                                              |
-| `./audio/b15.mp3` | 15.92s   | 1.21s             | lite på vänster fossa eh ja, jag bedömer det som en förstoppning eh du får behandling med ovykol i två, tre månader och sen så får du ju söka igen om du behöver, vid behov                                                                             |
-| `./audio/b20.mp3` | 20.92s   | 1.11s             | eh och ser bra ut eh gör ont lite på vänster fossa eh ja jag bedömer det som en förstoppning eh du får behandling med movicol i två, tre månader eh och sen så får du ju söka igen om du behöver, vid behov                                             |
-| `./audio/b25.mp3` | 25.92s   | 1.45s             | eh magen, parperia eh mag ah jag aspekterar magen eh och ser bra ut eh gör ont lite på vänster fossa eh ja jag bedömer det som en förstoppning eh du får behandling med mov i kol i två, tre månader eh och sen så får du ju söka igen om du behöver... |
-| `./audio/b30.mp3` | 30.92s   | 1.68s             | i hjärtat det låter bra, lungorna låter jättefint eh, eh magen, parperia eh, aspekterar magen eh och ser bra ut eh gör ont lite på vänster fossa eh ja jag bedömer det som en förstoppning eh du får behandling med movicult i två, tre månader...      |
-| `./audio/b60.mp3` | 60.72s   | 3.56s             | ehm sen, flera i min familj ehm, jag har tidigare tagit xxx vill kår för mina förstoppningar och som jag tror orsakar min buksmärta idag...                                                                                                             |
-| `./audio/b90.mp3` | 93.12s   | 4.53s             | hej eh hur kan jag hjälpa dig då? jo, eh jag söker för att jag har ont i magen, och jag har haft det under en väldigt lång period...                                                                                                                    |
-
-## Results Summary - Medium Model
-
-| Audio File        | Duration | Avg Response Time | Text                                                                                                                                                                                                                                                         |
-| ----------------- | -------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `./audio/b05.mp3` | 5.92s    | 0.92s             | i två, tre månader. Och sen så får du söka igen vid behov.                                                                                                                                                                                                   |
-| `./audio/b10.mp3` | 10.92s   | 1.31s             | Jag bedömer det som en förstoppning. Du får behandling med OVK i två, tre månader och sen så får du söka igen vid behov.                                                                                                                                     |
-| `./audio/b15.mp3` | 15.92s   | 1.54s             | Lite på vänster fossa. Ja, jag bedömer det som en förstoppning. Du får behandling med OVK i två, tre månader och sen så får du söka igen vid behov.                                                                                                          |
-| `./audio/b20.mp3` | 20.92s   | 1.81s             | Och det ser bra ut, det gör ont lite på vänster fossa, ja jag bedömer det som en förstoppning. Du får behandling med OVK i två, tre månader, och sen så får du söka igen vid behov.                                                                          |
-| `./audio/b25.mp3` | 25.92s   | 1.90s             | Magen palperar jag, jag aspekterar magen och det ser bra ut. Jag gör ont lite på vänster fossa jag bedömer det som en förstoppning. Du får behandling med OVK i två tre månader, och sen så får du söka igen vid behov.                                      |
-| `./audio/b30.mp3` | 30.92s   | 2.44s             | Hjärtat låter bra, lungorna låter jättefint Magen parperar jag, jag auskulterar magen Och ser bra ut Jag gör ont lite på vänster fossa Jag bedömer det som förstoppning Du får behandling med OVK i två tre månader Och sen så får du söka igenom du behöver |
-| `./audio/b60.mp3` | 60.72s   | 5.11s             | Jag har tidigare tagit villkor för mina förstoppningar och som jag tror orsakar min buksmärta idag...                                                                                                                                                        |
-| `./audio/b90.mp3` | 93.12s   | 6.63s             | Hej, hur kan jag hjälpa dig då? Jo jag söker för att jag har ont i magen och jag har haft det under en väldigt lång period...                                                                                                                                |
-
-## Results Summary - Large Model
-
-| Audio File        | Duration | Avg Response Time | Text                                                                                                                                                                                                                                                    |
-| ----------------- | -------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `./audio/b05.mp3` | 5.92s    | 1.42s             | I två, tre månader och sen så får du söka igen om du behöver, vid behov.                                                                                                                                                                                |
-| `./audio/b10.mp3` | 10.92s   | 1.91s             | jag bedömer det som en förstoppning ehm, du får behandling med Movi-Col i två, tre månader eh och sen så får du säkra igen om du behöver, vid behov                                                                                                     |
-| `./audio/b15.mp3` | 15.92s   | 2.15s             | Lite på vänsterfossa. Eh ja, jag bedömer det som en förstoppning. Eh, du får behandling med Movicol i två, tre månader. Och sen så får du söka igen om du behöver, vid behov.                                                                           |
-| `./audio/b20.mp3` | 20.92s   | 2.51s             | och ser bra ut ehm gör ont lite på vänsterfossa ehm ja jag bedömer det som en förstoppning ehm du får behandling med Movie Call i två, tre månader eh och sen så får du söka igen om du behöver, vid behov                                              |
-| `./audio/b25.mp3` | 25.92s   | 2.92s             | Eh magen, parperia. Eh mag, askultera magen. Eh och eh det ser bra ut. Eh gör ont lite på vänster fossa. Eh ja, jag bedömer det som en förstoppning. Eh du får behandling mot kol i två, tre månader. Eh och sen så får du säkert igen om du behöver... |
-| `./audio/b30.mp3` | 30.92s   | 3.67s             | hjärtat, det låter bra lungorna, låter jättefint eh eh magen, parperia eh mag, eh askultera magen eh och eh det ser bra ut ehm eh gör ont lite på vänster fossa eh ja, jag bedömer det som en förstoppning ehm du får behandling med Movicol...         |
-| `./audio/b60.mp3` | 60.72s   | 7.28s             | Sen i flera i min familj. Jag har tidigare tagit villkor för mina förstoppningar och som jag tror orsakar min buksmärta idag...                                                                                                                         |
-| `./audio/b90.mp3` | 93.12s   | 10.26s            | Hej, ehm, hur kan jag hjälpa dig då? Jo, jag söker för att jag har ont i magen och jag har haft det under en väldigt lång period...                                                                                                                     |
-
-## Analysis
-
-### "Movicol" Transcription Accuracy
-
-The goal was to find a fast and accurate model for transcribing medical drug names, specifically "Movicol". Below is a summary of how each model performed:
-
-### Detailed Accuracy Breakdown
-
-#### ✅ Exact Match - "movicol", "Movicol", "Movi-Col"
-
-| Model | Audio File | Duration | Avg Time | Transcription |
-| ----- | ---------- | -------- | -------- | ------------- |
-| Small | b20.mp3    | 20.92s   | 1.11s    | "movicol"     |
-| Large | b10.mp3    | 10.92s   | 1.91s    | "Movi-Col"    |
-| Large | b15.mp3    | 15.92s   | 2.15s    | "Movicol"     |
-| Large | b30.mp3    | 30.92s   | 3.67s    | "Movicol"     |
-
-#### ⚠️ Close/Almost - "movicult", "ovykol", "mov i kol"
-
-| Model | Audio File | Duration | Avg Time | Transcription | Similarity                     |
-| ----- | ---------- | -------- | -------- | ------------- | ------------------------------ |
-| Small | b15.mp3    | 15.92s   | 1.21s    | "ovykol"      | Similar structure, missing 'm' |
-| Small | b25.mp3    | 25.92s   | 1.45s    | "mov i kol"   | Words separated, recognizable  |
-| Small | b30.mp3    | 30.92s   | 1.68s    | "movicult"    | Single letter off, very close  |
-
-#### ❌ Poor Match - "mot ett kol", "mot vikolet", "mot vikol", "mov i KL", "OVK"
-
-| Model  | Audio File | Duration | Avg Time | Transcription | Issue                            |
-| ------ | ---------- | -------- | -------- | ------------- | -------------------------------- |
-| Tiny   | b10.mp3    | 10.92s   | 0.72s    | "mot ett kol" | Completely wrong word            |
-| Tiny   | b15.mp3    | 15.92s   | 0.89s    | "mot det kol" | Preposition instead of drug name |
-| Tiny   | b20.mp3    | 20.92s   | 0.76s    | "mot kol"     | Missing prefix                   |
-| Tiny   | b25.mp3    | 25.92s   | 0.91s    | "mot modekol" | Wrong drug name entirely         |
-| Base   | b10.mp3    | 10.92s   | 0.75s    | "mot vikolet" | Phonetically similar but wrong   |
-| Base   | b15.mp3    | 15.92s   | 0.80s    | "mot vikol"   | Phonetically similar but wrong   |
-| Base   | b20.mp3    | 20.92s   | 0.94s    | "mot vikol"   | Phonetically similar but wrong   |
-| Base   | b25.mp3    | 25.92s   | 0.92s    | "mot vikolet" | Phonetically similar but wrong   |
-| Small  | b10.mp3    | 10.92s   | 1.04s    | "mov i KL"    | Abbreviation with spacing        |
-| Medium | b25.mp3    | 25.92s   | 1.90s    | "OVK"         | Only abbreviation                |
-| Large  | b20.mp3    | 20.92s   | 2.51s    | "Movie Call"  | Completely misheard              |
-| Large  | b25.mp3    | 25.92s   | 2.92s    | "mot kol"     | Missing prefix                   |
-
-### Key Findings
-
-| Model  | Accuracy Level | Transcriptions of "Movicol"                  | b10.mp3 Avg Time | b15.mp3 Avg Time | Overall Avg Speed | Recommendation    |
-| ------ | -------------- | -------------------------------------------- | ---------------- | ---------------- | ----------------- | ----------------- |
-| Tiny   | ❌ Poor        | "mot ett kol", "mot kol", "mot modekol"      | 0.72s            | 0.89s            | ~0.81s            | ✗ Not suitable    |
-| Base   | ⚠️ Weak        | "mot vikolet", "mot vikol"                   | 0.75s            | 0.80s            | ~0.78s            | ✗ Not suitable    |
-| Small  | ⚠️ Partial     | "mov i KL", "mov i kol", "ovykol", "movicol" | 1.04s            | 1.21s            | ~1.13s            | ~ Conditional     |
-| Medium | ⚠️ Abbreviated | "OVK" (abbreviation only)                    | 1.31s            | 1.54s            | ~1.43s            | ✗ Not suitable    |
-| Large  | ✅ Excellent   | "Movi-Col", "Movicol"                        | 1.91s            | 2.15s            | ~2.03s            | ✓ **Recommended** |
-
-**Best Accuracy: Large Model**
-
-- Correctly transcribes "Movicol" as "Movi-Col" or "Movicol" consistently
-- Minor variations like hyphenation are acceptable for medical transcription
-- Price: ~2.5x slower than base/tiny models
-
-**Fastest but Inaccurate: Tiny & Base Models**
-
-- Tiny and Base models completely miss the drug name or severely mangle it
-- "mot vikol", "mot kol" are not usable for medical purposes
-- Speed advantage is negated by requiring manual correction
-
-**Compromise Option: Small Model**
-
-- Occasionally transcribes correctly ("movicol")
-- Other attempts are partial/close ("mov i kol", "ovykol")
-- More variable accuracy than Large, but significantly faster (55% faster than Large)
-- Could work with post-processing/fuzzy matching for common medical terms
-
-### Recommendation
-
-For **critical applications** where accuracy of drug names is essential (medical records, pharmacy), the **Large Model** is recommended despite the performance overhead. The cost of transcription errors in medical contexts far outweighs the slight increase in processing time.
-
-For **non-critical applications** with speed requirements, the **Small Model** could be viable with a post-processing step to match common medical terminology.
+| Model Name                    | ~Movicol count (5.92s) | ~Movicol count (10.92s) | ~Movicol count (15.92s) | ~Movicol count (20.92s) | ~Movicol count (25.92s) | ~Movicol count (30.92s) | ~Movicol count (60.72s) | ~Movicol count (93.12s) | Avg Response Time (5.92s) | Avg Response Time (10.92s) | Avg Response Time (15.92s) | Avg Response Time (20.92s) | Avg Response Time (25.92s) | Avg Response Time (30.92s) | Avg Response Time (60.72s) | Avg Response Time (93.12s) |
+| ----------------------------- | ---------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- |
+| faster-kb-whisper-large       | 0                      | 0                       | 0                       | 0                       | 0                       | 0                       | 0                       | 0                       | 0.48                      | 0.72                       | 1.02                       | 0.70                       | 0.79                       | 1.47                       | 1.58                       | 1.85                       |
+| faster-whisper-large-v3       | 0                      | 0                       | 0                       | 0                       | 0                       | 0                       | 0                       | 0                       | 0.52                      | 0.74                       | 0.78                       | 0.82                       | 0.78                       | 1.33                       | 1.66                       | 2.07                       |
+| faster-whisper-large-v3-turbo | 0                      | 0                       | 0                       | 0                       | 0                       | 0                       | 0                       | 0                       | 0.48                      | 0.81                       | 0.78                       | 0.73                       | 1.00                       | 1.39                       | 1.71                       | 1.81                       |
+| kb-whisper-base               | 0                      | 0                       | 0                       | 0                       | 0                       | 0                       | 0                       | 0                       | 0.56                      | 0.75                       | 0.80                       | 0.94                       | 0.92                       | 1.02                       | 2.35                       | 2.61                       |
+| kb-whisper-large              | 0                      | `1`                     | `1`                     | `1`                     | 0                       | `1`                     | `1`                     | `1`                     | 1.39                      | 1.91                       | 2.19                       | 2.46                       | 2.92                       | 3.65                       | 7.28                       | 10.26                      |
+| kb-whisper-medium             | 0                      | 0                       | 0                       | 0                       | 0                       | 0                       | 0                       | 0                       | 0.92                      | 1.31                       | 1.54                       | 1.87                       | 1.90                       | 2.41                       | 5.11                       | 6.63                       |
+| kb-whisper-small              | 0                      | 0                       | 0                       | `1`                     | 0                       | `1`                     | `1`                     | 0                       | 0.76                      | 1.04                       | 1.20                       | 1.11                       | 1.48                       | 1.68                       | 3.50                       | 4.59                       |
+| kb-whisper-tiny               | 0                      | 0                       | 0                       | 0                       | 0                       | 0                       | 0                       | 0                       | 0.50                      | 0.72                       | 0.93                       | 0.76                       | 0.91                       | 1.00                       | 1.98                       | 2.34                       |
+| openai-service-whisper        | 0                      | `1`                     | `1`                     | `1`                     | `1`                     | `1`                     | `2`                     | `2`                     | 0.75                      | 0.95                       | 1.06                       | 0.99                       | 1.02                       | 1.48                       | 2.48                       | 3.14                       |
+| whisper-base                  | 0                      | 0                       | `1`                     | 0                       | 0                       | 0                       | 0                       | 0                       | 0.48                      | 0.69                       | 0.84                       | 0.84                       | 0.95                       | 1.35                       | 1.93                       | 1.85                       |
+| whisper-large                 | 0                      | `1`                     | `1`                     | `1`                     | `1`                     | `1`                     | `2`                     | `2`                     | 1.09                      | 11.64                      | 2.00                       | 2.23                       | 2.54                       | 3.27                       | 7.14                       | 9.84                       |
+| whisper-large-v2              | 0                      | `1`                     | `1`                     | `1`                     | `1`                     | `1`                     | `2`                     | `2`                     | 1.23                      | 1.92                       | 2.23                       | 2.16                       | 2.87                       | 3.39                       | 7.22                       | 9.15                       |
+| whisper-large-v3              | 0                      | `1`                     | `1`                     | `1`                     | `1`                     | `1`                     | `2`                     | `1`                     | 1.22                      | 1.60                       | 2.04                       | 2.47                       | 2.55                       | 3.04                       | 6.88                       | 6.36                       |
+| whisper-large-v3-turbo        | 0                      | `1`                     | `1`                     | `1`                     | `1`                     | `1`                     | `1`                     | `1`                     | 0.75                      | 0.95                       | 1.06                       | 0.99                       | 1.02                       | 1.48                       | 2.48                       | 3.14                       |
+| whisper-medium                | 0                      | `1`                     | `1`                     | 0                       | `1`                     | `1`                     | `2`                     | `1`                     | 0.95                      | 1.35                       | 1.70                       | 1.72                       | 2.12                       | 2.00                       | 4.36                       | 6.21                       |
+| whisper-small                 | 0                      | 0                       | 0                       | 0                       | 0                       | 0                       | 0                       | `2`                     | 0.77                      | 0.84                       | 0.95                       | 1.19                       | 1.20                       | 1.70                       | 2.27                       | 3.05                       |
+| whisper-tiny                  | 0                      | 0                       | 0                       | 0                       | 0                       | 0                       | 0                       | 0                       | 0.34                      | 0.51                       | 0.56                       | 0.60                       | 0.68                       | 0.77                       | 1.45                       | 1.27                       |
