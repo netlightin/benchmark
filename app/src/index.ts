@@ -40,6 +40,7 @@ async function generateModelReport() {
     name: string;
     text: string;
     durationStats: Map<string, { total: number; count: number }>;
+    textByDuration: Map<string, string>;
   }> = [];
 
   const filenameDurationMap = getFilenameDurationMap();
@@ -124,6 +125,7 @@ async function generateModelReport() {
       name: modelFolder,
       text: modelText,
       durationStats,
+      textByDuration,
     });
   }
 
@@ -144,9 +146,16 @@ async function generateModelReport() {
 
   // Generate markdown table
   let markdown = '# Model Benchmark Report\n\n';
-  let headerRow = '| Model Name | Text (93.12s) | ~Movicol count | full-text |';
-  let separatorRow = '|---|---|---|---|';
+  let headerRow = '| Model Name |';
+  let separatorRow = '|---|';
 
+  // Add Movicol count columns
+  for (const duration of sortedDurations) {
+    headerRow += ` ~Movicol count (${duration}s) |`;
+    separatorRow += '---|';
+  }
+
+  // Add Response Time columns
   for (const duration of sortedDurations) {
     headerRow += ` Avg Response Time (${duration}s) |`;
     separatorRow += '---|';
@@ -156,9 +165,16 @@ async function generateModelReport() {
   markdown += separatorRow + '\n';
 
   for (const model of modelData) {
-    const moviCount = countMoviWords(model.text);
-    let row = `| ${model.name} | ${model.text} | ${moviCount} |  |`;
+    let row = `| ${model.name} |`;
 
+    // Add movicol counts for each duration
+    for (const duration of sortedDurations) {
+      const durationText = model.textByDuration.get(duration);
+      const durationMoviCount = durationText ? countMoviWords(durationText) : 0;
+      row += ` ${durationMoviCount} |`;
+    }
+
+    // Add response times for each duration
     for (const duration of sortedDurations) {
       const stats = model.durationStats.get(duration);
       if (stats && stats.count > 0) {
